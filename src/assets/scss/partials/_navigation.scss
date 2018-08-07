@@ -1,0 +1,53 @@
+.nav-burger {
+  height: 4em;
+  margin-right: 1em;
+}
+
+.nav-close {
+  height: 4em;
+  margin-top: 3.5em;
+  margin-right: 2em;
+}
+
+.nav-button {
+  border: none;
+  background-color: none;
+  float: right;
+  margin-right: 1em;
+}
+
+.overlayMenu {
+  background-color: white;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8vw;
+}
+
+.nav-button {
+  border-style: none;
+  background: none;
+}
+
+.flex_socialmedia{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 3em;
+
+}
+
+.socialmedia {
+  height: 5vw;
+}

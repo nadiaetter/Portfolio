@@ -1,0 +1,51 @@
+.yellow-polygon-top {
+  z-index: -99;
+  position: fixed;
+  height: 200%;
+  margin-top: -140vh;
+  margin-left: -40vh;
+}
+
+.yellow-polygon-bottom {
+  z-index: -99;
+  position: fixed;
+  height: 200%;
+  margin-bottom: -10vh;
+  margin-left: 0;
+}
+
+.pink-polygon-top {
+  z-index: -99;
+  position: fixed;
+  height: 200%;
+  margin-top: -140vh;
+  margin-left: -40vh;
+}
+
+.pink-polygon-bottom {
+  z-index: -99;
+  height: 200%;
+  margin-bottom: -10vh;
+  margin-left: 0;
+}
+
+.teaser-button {
+  border: none;
+  background-color: $yellow;
+  grid-column: 5;
+  // padding: -5px;
+}
+
+// .teaser-button-left {
+//   border: none;
+//   background-color: $yellow;
+//   grid-column: 5;
+//   // padding: -5px;
+// }
+//
+// .teaser-button-right {
+//   border: none;
+//   background-color: $yellow;
+//   grid-column: 5 / 6;
+//   padding: -5px;
+// }

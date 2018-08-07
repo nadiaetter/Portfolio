@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Roboto|Playfair+Display');
+
+$headline: "Bowlby One SC", Helvetica, Arial, sans-serif;
+$headline_2: "Roboto", Helvetica, Arial, sans-serif;
+$text: 'Playfair Display', serif;
+
+.headline {
+  color: $cyan;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 4vw;
+  font: {
+    family: $headline;
+    size: 4em;
+    }
+}
+
+.nav-headline {
+  color: $cyan;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: {
+    family: $headline;
+    size: 4.5vw;
+    }
+}
+
+.second-headline {
+  text-transform: uppercase;
+  margin-left: 4vw;
+  color: $black;
+  margin-bottom: 15vh;
+  word-spacing: 1em;
+  font: {
+    family: $headline_2;
+    weight: 700; //bold
+    size: 2em;
+  }
+}
+
+.teaser-headline {
+  text-transform: uppercase;
+  color: $black;
+  font: {
+    family: $headline_2;
+    weight: 800; //bold
+    size: 2.5em;
+  }
+}
+
+.teaser-buttons-text {
+  font: {
+    family: $text;
+    size: 3.2em;
+  }
+}
+
+.text {
+  font: {
+    family: $text;
+    size: 2em;
+  }
+}
+
+.text-cv {
+  font: {
+    family: $text;
+    size: 1.5em;
+  }
+}
+
+.link {
+  text-decoration: underline;
+  color: $cyan;
+}
