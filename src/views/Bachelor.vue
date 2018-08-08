@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <body>
+           <img class="polygon-top" src="../assets/img/purple_polygon.png">
     <h1 class="headline">bachelorarbeit<br> surfcamp-finder</h1>
     <div class="all-boxes">
       <div class="boxes-text">
@@ -15,6 +17,7 @@
         <p class="text"></p>
       </div>
     </div>
+  </body>
   </div>
 </template>
 

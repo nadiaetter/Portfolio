@@ -1,6 +1,7 @@
 <template>
 <div id="app">
-  <img class="pink-polygon-top" src="../assets/img/pink_polygon.png">
+  <body>
+  <img class="polygon-top" src="../assets/img/pink_polygon.png">
   <h1 class="headline">hey, ich bin nadia!</h1>
   <div class="all-boxes">
     <div class="boxes-text">
@@ -23,7 +24,7 @@
     </p>
     </div>
   </div>
-  <!-- <img class="pink-polygon-bottom" src="../assets/img/pink_polygon_footer.png"> -->
+</body>
 </div>
 </template>
 

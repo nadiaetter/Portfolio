@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img class="yellow-polygon-top" src="../assets/img/yellow_polygon.png">
+    <body>
+    <img class="polygon-top" src="../assets/img/yellow_polygon.png">
       <h1 class="headline">contact</h1>
         <div class="all-boxes">
           <div class="boxes-text">
@@ -15,7 +16,7 @@
             </p>
           </div>
         </div>
-      <img class="yellow-polygon-bottom" src="../assets/img/yellow-polygon-footer.png">
+    </body>
   </div>
 </template>
 

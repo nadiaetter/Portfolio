@@ -1,6 +1,7 @@
 <template>
 <div id="app">
-  <!-- <img class="yellow-polygon-top" src="../assets/img/yellow_polygon.png"> -->
+  <body>
+    <img class="polygon-top" src="../assets/img/yellow_polygon.png">
   <h1 class="headline">work</h1>
   <p class="second-headline">VIDEO  WEBDESIGN WEBENTWICKLUNG <br> VR INFOGRAFIK</p>
 
@@ -10,7 +11,7 @@
   <div class="boxes-left">
     <p class="teaser-headline" @click="GoToBachelor">BACHELORARBEIT SURFCAMP-FINDER</p>
     <img class="teaser-image" src="../assets/img/bachelor.jpg" @click="GoToBachelor">
-    <button class="teaser-button-left" @click="GoToBachelor">
+    <button class="teaser-button" @click="GoToBachelor">
       <p class="teaser-buttons-text">Mehr zum Projekt</p>
     </button>
   </div>
@@ -62,7 +63,7 @@
 </div>
 
 <!-- END ALL BOXES -->
-
+</body>
 </div>
 </template>
 

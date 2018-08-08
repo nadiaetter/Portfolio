@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <body>
+          <img class="polygon-top" src="../assets/img/purple_polygon.png">
     <h1 class="headline">YONA VIRTUAL REALITY GAME</h1>
     <div class="all-boxes">
       <div class="boxes-text">
@@ -29,6 +31,7 @@ Deshalb ist die Frage, ob die Technologie bald unser ganzes Leben bestimmen wird
       <p class="text"></p>
     </div>
   </div>
+</body>
   </div>
 </template>
 

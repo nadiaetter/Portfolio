@@ -1,5 +1,5 @@
 <template>
-
+<body>
 <div class="navigation">
   <button class="nav-button" @click="toggleShow">
     <img class="nav-burger"  src="../assets/img/menu-bar.png">
@@ -13,7 +13,6 @@
           <br>
 
           <div class="nav-open">
-
             <button @click="toggleShow" class="nav-button">
               <router-link to="/" class="nav-headline">WORK</router-link>
             </button>
@@ -61,7 +60,7 @@
 <!-- END OVERLAY MENU -->
 
 </div>
-
+</body>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <body>
+     <img class="polygon-top" src="../assets/img/purple_polygon.png">
     <h1 class="headline">crutch</h1>
     <div class="all-boxes">
       <div class="boxes-text">
@@ -8,6 +10,8 @@
 
       <iframe class="boxes-image1" src="https://player.vimeo.com/video/148922819" width="750" height="470" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
+
+    </body>
   </div>
 </template>
 

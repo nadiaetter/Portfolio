@@ -1,6 +1,19 @@
+// ------- MOBILE --------- //
+// @media screen and (max-width: 840px) {
+//   .nav-burger {
+//     height: 3em;
+//     margin-right: 10px;
+//   }
+//
+//   .nav-button {
+//     margin-right: 0;
+//   }
+// }
+// ------- DESKTOP --------- //
 .nav-burger {
   height: 4em;
   margin-right: 1em;
+  margin-top: 3em;
 }
 
 .nav-close {
@@ -17,7 +30,7 @@
 }
 
 .overlayMenu {
-  background-color: white;
+  background-color: #E63A4F;
   z-index: 99;
   position: fixed;
   top: 0;
@@ -39,13 +52,12 @@
   background: none;
 }
 
-.flex_socialmedia{
+.flex_socialmedia {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   margin-top: 3em;
-
 }
 
 .socialmedia {

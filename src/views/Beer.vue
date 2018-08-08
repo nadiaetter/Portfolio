@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+     <body>
+            <img class="polygon-top" src="../assets/img/purple_polygon.png">
     <h1 class="headline">infografik<br>brauereien in der schweiz</h1>
     <div class="all-boxes">
       <div class="boxes-text">
@@ -7,6 +9,7 @@
       </div>
       <iframe class="boxes-image1" width="1024" height="768" src="https://xd.adobe.com/embed/5c6e7b3d-71b8-4207-610b-b95607fa8199-2a5f/" frameborder="0" allowfullscreen></iframe>
     </div>
+  </body>
   </div>
 </template>
 
